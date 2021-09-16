@@ -1,0 +1,139 @@
+.questions {
+  max-width: 360px;
+  height: 100%;
+  margin-bottom: 60px;
+  padding: 60px 20px 0;
+}
+.questions__title {
+  width: 320px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.questions__card-wrapper {
+  width: 360px;
+}
+.questions__card {
+  width: 320px;
+  margin-bottom: 30px;
+}
+.questions__card-container {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.questions__card-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/iconPlus.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.questions__card-title {
+  width: 260px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: $black-main;
+}
+
+.questions__card-text {
+  width: 260px;
+  margin-left: 60px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: $black-main;
+  display: none;
+}
+.questions__card-text._active {
+  display: block;
+}
+.questions__card-icon._active {
+  transform: rotate(45deg);
+}
+
+// Table 800 ========================================================================
+@media (min-width: 800px) {
+  .questions {
+    max-width: 800px;
+  }
+  .questions__title {
+    width: 720px;
+    margin-bottom: 0 auto 100px;
+  }
+  .questions__card-wrapper {
+    width: 800px;
+  }
+  .questions__card {
+    width: 800px;
+  }
+  .questions__card-container {
+    width: 800px;
+    justify-content: space-around;
+  }
+  .questions__card-title {
+    width: 652px;
+  }
+  .questions__card-text {
+    width: 652px;
+    margin-left: 120px;
+  }
+}
+// =================================================================================
+
+// desktop 1200 ====================================================================
+@media (min-width: 1200px) {
+  .questions {
+    max-width: 1200px;
+  }
+  .questions__card-wrapper {
+    width: 710px;
+    margin: 0 auto;
+  }
+  .questions__title {
+    width: 710px;
+    margin: 0 auto 80px;
+  }
+  .questions__card {
+    margin-bottom: 60px;
+  }
+}
+// =================================================================================
+
+// desktop 1920 ====================================================================
+@media (min-width: 1920px) {
+  .questions {
+    max-width: 1920px;
+  }
+  .questions__card-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .questions__title {
+    width: 1000px;
+    margin: 0 auto 80px;
+  }
+  .questions__card {
+    margin-bottom: 60px;
+  }
+  .questions__card-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .questions__card-title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 120%;
+  }
+  .questions__card-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+  }
+}
+// =================================================================================

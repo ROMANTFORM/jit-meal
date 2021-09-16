@@ -1,0 +1,98 @@
+.demo {
+  max-width: 360px;
+  height: 100%;
+  // margin-bottom: 40px;
+  padding: 60px 20px;
+  background-color: $dark-peach;
+}
+.demo__img {
+  width: 320px;
+  height: 206px;
+  margin-bottom: 40px;
+}
+.demo__title {
+  margin-bottom: 32px;
+  font-size: 30px;
+  line-height: 30px;
+  color: $black-main;
+  font-weight: 700;
+}
+.demo__text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $black-main;
+  margin-bottom: 32px;
+}
+.demo__btn {
+  width: 320px;
+  height: 56px;
+  margin: 0 auto;
+}
+
+// Tabl 800 ========================================================================
+@media (min-width: 800px) {
+  .demo {
+    max-width: 800px;
+    height: 406px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .demo__block-img {
+    width: 350px;
+  }
+  .demo__block-info {
+    width: 350px;
+  }
+}
+// =================================================================================
+
+// desktop 1200 ====================================================================
+@media (min-width: 1200px) {
+  .demo {
+    max-width: 1200px;
+  }
+  .demo__block-img {
+    width: 525px;
+  }
+  .demo__block-info {
+    width: 525px;
+  }
+
+  .demo__title,
+  .demo__text,
+  .demo__btn {
+    margin: 0 0 32px;
+  }
+}
+// =================================================================================
+
+// desktop 1920 ====================================================================
+@media (min-width: 1920px) {
+  .demo {
+    max-width: 1920px;
+    height: 497px;
+    justify-content: space-evenly;
+  }
+  .demo__block-img,
+  .demo__img {
+    width: 740px;
+    height: 480px;
+  }
+  .demo__title {
+    width: 609px;
+    line-height: 48px;
+  }
+  .demo__text {
+    width: 609px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .demo__block-info {
+    width: 609px;
+  }
+}
+// =================================================================================

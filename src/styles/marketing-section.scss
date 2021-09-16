@@ -1,0 +1,123 @@
+.marketing {
+  max-width: 360px;
+  height: 100%;
+  margin-bottom: 60px;
+}
+.marketing-container__title {
+  width: 340px;
+  height: 340px;
+  margin: 0 auto 40px;
+  background-image: url('../images/mob-img4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 260px;
+}
+.marketing__title {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+.marketing__card {
+  width: 320px;
+  margin: 0 auto;
+}
+.marketing__card-title {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: $black-main;
+  margin-bottom: 16px;
+}
+.marketing__card-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $black-main;
+  margin-bottom: 40px;
+}
+
+// Tabl 800 ========================================================================
+@media (min-width: 800px) {
+  .marketing {
+    max-width: 800px;
+  }
+  .marketing-container__title {
+    width: 500px;
+    height: 470px;
+  }
+  .marketing-container__title {
+    padding-top: 350px;
+  }
+  .marketing__title {
+    width: 500px;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .marketing__container-card {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .marketing__card {
+    width: 214px;
+  }
+}
+// =================================================================================
+
+// desktop 1200 ====================================================================
+@media (min-width: 1200px) {
+  .marketing {
+    max-width: 1200px;
+  }
+  .marketing-container__title {
+    width: 545px;
+    height: 525px;
+    padding-top: 400px;
+  }
+  .marketing__container-card {
+    width: 1200px;
+  }
+  .marketing__card {
+    width: 320px;
+  }
+}
+// =================================================================================
+
+// desktop 1920 ====================================================================
+@media (min-width: 1920px) {
+  .marketing {
+    max-width: 1920px;
+  }
+  .marketing-container__title {
+    width: 800px;
+    height: 740px;
+    padding-top: 580px;
+    margin-bottom: 40px;
+  }
+  .marketing__title {
+    width: 800px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+  }
+  .marketing__container-card {
+    width: 1920px;
+  }
+  .marketing__card {
+    width: 373px;
+  }
+  .marketing__card-title {
+    width: 374px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 100%;
+  }
+  .marketing__card-text {
+    width: 374px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+  }
+}
+// =================================================================================

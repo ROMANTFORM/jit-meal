@@ -1,0 +1,116 @@
+.footer {
+  max-width: 360px;
+  height: 362px;
+  padding: 60px 20px;
+  background-color: $black-main;
+}
+.footer__block1 {
+  width: 320px;
+  margin: 0 auto 40px;
+}
+.block1__title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+.block1__link {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+.footer__block2 {
+  width: 320px;
+  margin: 0 auto 40px;
+}
+.footer__block2 p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.footer__block3 span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  margin-right: 20px;
+  border-radius: 2px;
+}
+.fb {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/social-icons/FB.png');
+}
+.yt {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/social-icons/YT.png');
+}
+
+// Tabl 800 ========================================================================
+@media (min-width: 800px) {
+  .footer {
+    max-width: 800px;
+    height: 206px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__block1,
+  .footer__block2,
+  .footer__block3 {
+    width: 30%;
+  }
+  .footer__block3 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+}
+// =================================================================================
+
+// desktop 1200 ====================================================================
+@media (min-width: 1200px) {
+  .footer {
+    max-width: 1200px;
+  }
+}
+// =================================================================================
+
+// desktop 1920 ====================================================================
+@media (min-width: 1920px) {
+  .footer {
+    max-width: 1920px;
+    height: 326px;
+    align-items: center;
+  }
+  .footer__block2 span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 30px;
+  }
+  .footer__block2 a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .viber {
+    background-image: url('../images/social-icons/Viber-Icon-Purple-Logo.wine.png');
+  }
+  .twitter {
+    background-image: url('../images/social-icons/WhatsApp.png');
+  }
+  .telegram {
+    background-image: url('../images/social-icons/Telegram.png');
+  }
+}
+// =================================================================================

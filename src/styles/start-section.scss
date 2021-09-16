@@ -1,0 +1,97 @@
+.start {
+  max-width: 360px;
+  height: 100%;
+  padding: 60px 0;
+  margin-bottom: 146px;
+  background-color: $pink-bg;
+}
+.start__img {
+  display: block;
+  width: 320px;
+  height: 206px;
+  margin: 0 auto;
+}
+.start__title {
+  width: 320px;
+  margin: 0 auto 32px;
+}
+.start__text {
+  width: 320px;
+  margin: 0 auto 32px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $black-main;
+}
+.start__btn {
+  width: 320px;
+  height: 56px;
+  margin: 0 20px;
+}
+
+// Tabl 800 ========================================================================
+@media (min-width: 800px) {
+  .start {
+    max-width: 800px;
+    height: 406px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .start__block-img {
+    width: 350px;
+  }
+  .start__block-info {
+    width: 350px;
+  }
+}
+// =================================================================================
+
+// desktop 1200 ====================================================================
+@media (min-width: 1200px) {
+  .start {
+    max-width: 1200px;
+  }
+  .start__block-img {
+    width: 525px;
+  }
+  .start__block-info {
+    width: 525px;
+  }
+
+  .start__title,
+  .start__text,
+  .start__btn {
+    margin: 0 0 32px;
+  }
+}
+// =================================================================================
+
+// desktop 1920 ====================================================================
+@media (min-width: 1920px) {
+  .start {
+    max-width: 1920px;
+    height: 497px;
+    justify-content: space-evenly;
+  }
+  .start__block-img,
+  .start__img {
+    width: 740px;
+    height: 480px;
+  }
+  .start__title {
+    width: 609px;
+    line-height: 48px;
+  }
+  .start__text {
+    width: 609px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .start__block-info {
+    width: 609px;
+  }
+}
+// =================================================================================

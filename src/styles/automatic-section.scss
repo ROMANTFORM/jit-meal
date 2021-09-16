@@ -1,0 +1,128 @@
+.automatic {
+  max-width: 360px;
+  height: 100%;
+  margin-bottom: 146px;
+}
+.automatic-container__info {
+  max-width: 360px;
+}
+.automatic__title {
+  width: 320px;
+  margin: 0 auto 32px;
+  color: $black-main;
+}
+.automatic__subtitle {
+  width: 320px;
+  margin: 0 auto 16px;
+  color: $orange-main;
+  font-size: 18px;
+  line-height: 22px;
+}
+.automatic__text {
+  width: 320px;
+  margin: 0 auto 32px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $black-main;
+}
+.automatic__btn {
+  width: 320px;
+  height: 56px;
+  margin: 0 20px;
+}
+.automatic-container__img {
+  width: 416px;
+  height: 360px;
+  background-image: url('../images/desktop/Desktop-Img1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  display: none;
+}
+
+// Tabl 800 ========================================================================
+@media (min-width: 800px) {
+  .automatic {
+    max-width: 800px;
+    padding-left: 40px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .automatic-container__img {
+    display: block;
+  }
+  .automatic__title,
+  .automatic__subtitle,
+  .automatic__text {
+    width: 350px;
+  }
+  .automatic__btn {
+    width: 240px;
+    margin: 0;
+  }
+}
+// =================================================================================
+
+// desktop 1200 ====================================================================
+@media (min-width: 1200px) {
+  .automatic {
+    max-width: 1200px;
+    align-items: center;
+  }
+  .automatic-container__img {
+    width: 525px;
+    height: 455px;
+  }
+  .automatic-container__info {
+    width: 525px;
+    height: 360px;
+  }
+  .automatic__title {
+    width: 525px;
+  }
+}
+// =================================================================================
+
+// desktop 1920 ====================================================================
+@media (min-width: 1920px) {
+  .automatic {
+    max-width: 1920px;
+  }
+  .automatic-container__info {
+    width: 740px;
+    height: 424px;
+  }
+  .automatic__title {
+    width: 740px;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 800;
+  }
+  .automatic__subtitle {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .automatic__text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .automatic__subtitle,
+  .automatic__text {
+    width: 740px;
+  }
+  .automatic__btn {
+    width: 239px;
+    height: 56px;
+  }
+  .automatic-container__img {
+    width: 740px;
+    height: 740px;
+    background-image: url('../images/biggest-main.png');
+  }
+}
+// =================================================================================

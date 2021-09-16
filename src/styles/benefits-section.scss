@@ -1,0 +1,128 @@
+.benefits {
+  max-width: 360px;
+  height: 100%;
+  margin-bottom: 146px;
+}
+.benefits__wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits__title {
+  width: 320px;
+  text-align: center;
+  margin: 0 auto 32px;
+}
+.benefits-icon__container {
+  margin-bottom: 40px;
+}
+.benefits-icon1 {
+  width: 88px;
+  height: 88px;
+  background-image: url('../images/icons/cloud.png');
+  margin: 0 auto 16px;
+}
+.benefits-icon2 {
+  width: 88px;
+  height: 88px;
+  background-image: url('../images/icons/earth.png');
+  margin: 0 auto 16px;
+}
+.benefits-icon3 {
+  width: 88px;
+  height: 88px;
+  background-image: url('../images/icons/shild\ \(2\).png');
+  margin: 0 auto 16px;
+}
+.benefits-icon__title {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: $black-main;
+}
+.benefits__text {
+  width: 320px;
+  margin: 0 auto 32px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: $orange-main;
+}
+
+// Tabl 800 ========================================================================
+@media (min-width: 800px) {
+  .benefits {
+    max-width: 800px;
+    margin-bottom: 0;
+  }
+  .benefits__title {
+    width: 740px;
+    margin: 0 auto 60px;
+  }
+  .benefits-icon__wrap {
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .benefits-icon__container {
+    width: 230px;
+    margin-bottom: 60px;
+  }
+  .benefits-icon__title {
+    text-align: center;
+  }
+  .benefits__text {
+    width: 600px;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+}
+// =================================================================================
+
+// desktop 1200 ====================================================================
+@media (min-width: 1200px) {
+  .benefits {
+    max-width: 1200px;
+  }
+}
+// =================================================================================
+
+// desktop 1920 ====================================================================
+@media (min-width: 1920px) {
+  .benefits {
+    max-width: 1920px;
+  }
+  .benefits__title {
+    margin-bottom: 100px;
+  }
+  .benefits-icon__wrap {
+    width: 1920px;
+    margin-bottom: 80px;
+  }
+  .benefits-icon__container {
+    width: 480px;
+  }
+  .benefits-icon1,
+  .benefits-icon2,
+  .benefits-icon3 {
+    width: 104px;
+    height: 104px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .benefits-icon__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .benefits__text {
+    width: 517px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+  }
+}
+// =================================================================================

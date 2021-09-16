@@ -1,0 +1,211 @@
+.possibilities {
+  max-width: 360px;
+  height: 100%;
+  margin-bottom: 146px;
+}
+.wrapper1 {
+  width: 100%;
+  padding: 60px 20px 40px;
+  background-color: $light-peach;
+}
+.possibilities__title {
+  width: 320px;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+.img-wrapper {
+  width: 320px;
+  margin: 0 auto 40px;
+}
+.possibilities__img {
+  width: 320px;
+  height: 206px;
+}
+
+.possibilities__subtitle {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $black-main;
+  margin: 30px auto 24px;
+}
+.possibilities__text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $black-main;
+}
+.wrapper2 {
+  width: 100%;
+  padding: 60px 20px 40px;
+  background-color: $dark-peach;
+}
+.possibilities__img3 {
+  display: block;
+  width: 320px;
+  height: 206px;
+}
+.wrapper2 h4 {
+  margin: 30px auto 40px;
+}
+.wrapper3 {
+  width: 100%;
+  padding: 60px 20px 40px;
+}
+.icon-card {
+  width: 320px;
+  margin: 0 auto;
+}
+.icon-card__title {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700px;
+  color: $black-main;
+  margin-bottom: 16px;
+}
+.icon-card__text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $black-main;
+  margin-bottom: 40px;
+}
+.possibilities__icon {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.possibilities__icon1 {
+  background-image: url('../images/icons/Icon.png');
+}
+.possibilities__icon2 {
+  background-image: url('../images/icons/Icon\ \(1\).png');
+}
+.possibilities__icon3 {
+  background-image: url('../images/icons/Icon\ \(2\).png');
+}
+.possibilities__icon4 {
+  background-image: url('../images/icons/Icon\ \(3\).png');
+}
+.possibilities__icon5 {
+  background-image: url('../images/icons/Icon\ \(4\).png');
+}
+.possibilities__icon6 {
+  background-image: url('../images/icons/Icon\ \(5\).png');
+}
+
+// Tabl 800 ========================================================================
+@media (min-width: 800px) {
+  .possibilities {
+    max-width: 800px;
+    margin-bottom: 0;
+  }
+  .possibilities__title {
+    width: 700px;
+    margin-bottom: 60px;
+  }
+  .img-wrapper {
+    width: 474px;
+    height: 300px;
+    margin: 0 auto 40px;
+  }
+  .possibilities__img {
+    display: block;
+    width: 400px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .possibilities__subtitle {
+    width: 474px;
+    margin: 0 auto 24px;
+  }
+  .possibilities__text {
+    width: 474px;
+    margin: 0 auto 60px;
+  }
+  .wrapper3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+// =================================================================================
+
+// desktop 1200 ====================================================================
+@media (min-width: 1200px) {
+  .possibilities {
+    max-width: 1200px;
+  }
+  .possibilities-wrap1 {
+    display: flex;
+    align-items: center;
+  }
+  .img-wrapper {
+    width: 525px;
+    height: 340px;
+  }
+  .info-wrapper {
+    width: 525px;
+  }
+  .icon-card {
+    width: 510px;
+  }
+}
+// =================================================================================
+
+// desktop 1920 ====================================================================
+@media (min-width: 1920px) {
+  .possibilities {
+    max-width: 1920px;
+  }
+  .possibilities-wrap1 {
+    justify-content: space-evenly;
+  }
+  .img-wrapper {
+    width: 740px;
+    height: 480px;
+    margin: 0;
+  }
+  .possibilities__img {
+    width: 740px;
+  }
+  .info-wrapper {
+    width: 740px;
+  }
+  .icon-card {
+    width: 510px;
+  }
+  .possibilities__subtitle {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100%;
+  }
+  .possibilities__text {
+    width: 740px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .icon-card {
+    width: 660px;
+  }
+  .possibilities__icon {
+    width: 104px;
+    height: 104px;
+  }
+  .icon-card__title {
+    width: 660px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 100%;
+  }
+  .icon-card__text {
+    width: 660px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+  }
+}
+// =================================================================================
